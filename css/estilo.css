@@ -1,6 +1,10 @@
 body{
     background-color: #FFE4C4;
+}
 
+.container{
+
+    width: 80%;
 }
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -10,7 +14,7 @@ p{
 }
 h1{
     text-align: center;
-    text-shadow: #A52A2A;
+
 }
 h2{
     text-align: center;
