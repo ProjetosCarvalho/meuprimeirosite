@@ -5,11 +5,12 @@ body{
 .container{
 
     width: 80%;
+    margin: auto;
 }
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #A52A2A;
-    text-align: center;
+    text-align: left;
 
 }
 h1{
@@ -20,5 +21,11 @@ h2{
     text-align: center;
 }
 h3{
+    text-align: center;
+}
+img{
+    width: 40%;
+}
+figure{
     text-align: center;
 }
