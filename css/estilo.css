@@ -1,5 +1,5 @@
 body{
-    background-color: #FFE4C4;
+    background-color: #FFE4E1;
 }
 
 .container{
@@ -8,23 +8,35 @@ body{
     margin: auto;
 }
 p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #A52A2A;
-    text-align: left;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #CD5C5C;
+    text-align: justify;
+    text-indent: 40px;
 
 }
 h1{
     text-align: center;
+    color: 	#1C1C1C
 
 }
 h2{
     text-align: center;
+    color: 	#8B0000;
+
 }
 h3{
     text-align: center;
+    color: 		#8B0000;
+
 }
-img{
+.img_topo{
+    width: 100%;
+}
+.img_corpo{
     width: 40%;
+}
+    
 }
 figure{
     text-align: center;
