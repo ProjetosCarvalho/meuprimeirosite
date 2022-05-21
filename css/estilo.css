@@ -1,72 +1,89 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    background-color: 	#F8F8FF;
+.menu{
+    background-color: #40E0D0;
+    width: 100%;
 }
-
+.itens_menu{
+    text-align: center;
+}
+.itens_menu li{
+    font-size: 1,3em;
+    line-height: 1,5;
+}
+h1{
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    color:  #000000;
+    font-weight: bolder;
+    text-shadow: 2px 2px 	#ADD8E6;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fundo{
+    background-color: #FFFFF0;
+}
+.fundo_dois{
+    background-color: #F0F8FF;
+}
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 .container{
-
     width: 80%;
     margin: auto;
 }
-.video{
-    text-align: center;
-}
-figure{
-    text-align: center;
-}
-footer{
-    background-color:#40E0D0;
-}
-h1{
-    text-align: center;
-    color: 	#008B8B;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    text-shadow: 2px 2px 	#40E0D0;
-    border-style: dotted;
-}
 h2{
     text-align: center;
-    color: 		#4F4F4F;
-    font-size: 40px;
-}
-h3{
-    text-align: center;
-    color: 			#4F4F4F; 
-    font-size: 30px;
-}
-h4{ text-align: center;
-    color: 			#4F4F4F;
-    font-size: 30px;
-}
-h5{
-    font-size:  1.6em;
-    text-align: center;
-    color: 	    	#4F4F4F;
-    font-size: 30px;
-}
-p{
-    font-size: 1.2em;
+    color: 	#008080;
+    font-size: 2em;
     font-weight: bold;
-    color: #000000;
-    text-align: justify;
-    text-indent: 40px;
-}
-ul{
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #000000;
-    text-align: justify;
-    text-indent: 40px;
-}
-.img_topo{
-    width: 100%;
 }
 .img_corpo{
     width: 50%;
 }
+figure{
+    text-align: center;
+    margin-top: 1,5%;
+    margin-bottom: 1,5%;
+}
+.img_topo{
+    width: 100%;
+}
 .img_gif{
     width: 60%;
+}
+.video{
+    text-align: center;
+}
+p{
+    font-size: 1.1em;
+    color: #4F4F4F;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1,5;
+    font-weight: bold;
+}
+footer{
+    background-color: #40E0D0;
+    padding-top: 2%;
+    width: 100%;
+}
+.centro{
+    text-align: center;
+    color: #F0F8FF;
+}
+.links{
+    text-align: center;
+    color: #1C1C1C;
+}
+.topicos{
+    font-size: 1.1em;
+    color: #4F4F4F;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1,5;
 }
