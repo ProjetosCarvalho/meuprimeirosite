@@ -121,6 +121,9 @@ footer{
     margin: auto;
     padding: 1.5%;
     border-radius: 25px;
+    border-style: solid;
+    border-color: #008080;
+    border-width: medium;
 }
 .botao2 p {
     text-indent: 0;
@@ -131,4 +134,11 @@ footer{
 }
 .botao2 a:hover{
     color: #000000;
+}
+.centro a:link, .centro a:visited{
+    color: 	#ffffff;
+}
+.centro a:hover{
+    background-color: #008080;
+    padding: 0.1%;
 }
