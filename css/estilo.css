@@ -3,7 +3,7 @@ html{
 }
 .menu{
     background-color: #40E0D0;
-    padding: 1.5%;
+    padding: 1.2%;
 }
 .itens_menu{
     text-align: center;
@@ -41,9 +41,13 @@ h2{
     color: 	#008080;
     font-size: 2em;
     font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .img_corpo{
-    width: 50%;
+    width: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 figure{
     text-align: center;
@@ -52,25 +56,34 @@ figure{
 }
 .img_topo{
     width: 100%;
+    margin-bottom: 1%;
 }
 .img_gif{
-    width: 60%;
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .video{
     text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 p{
     font-size: 1.1em;
     color: #4F4F4F;
     text-align: justify;
-    text-indent: 40px;
     line-height: 1,5;
+    text-indent: 40px;
     font-weight: bold;
+    line-height: 150%;
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
 }
 footer{
     background-color: #40E0D0;
     padding-top: 2%;
     padding-bottom: 2%;
+    margin-top: 2%;
 }
 .centro{
     text-align: center;
@@ -106,6 +119,8 @@ footer{
     margin: auto;
     padding: 1.5%;
     border-radius: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .botao p {
     text-indent: 0;
@@ -124,6 +139,8 @@ footer{
     border-style: solid;
     border-color: #008080;
     border-width: medium;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .botao2 p {
     text-indent: 0;
@@ -141,4 +158,14 @@ footer{
 .centro a:hover{
     background-color: #008080;
     padding: 0.1%;
+}
+.direita{
+    float: right;
+    margin-left: 1%;
+    width: 40%;
+}
+.esquerda{
+    float:left;
+    margin-right: 2%;
+    width: 50%;
 }
