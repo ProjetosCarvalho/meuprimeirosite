@@ -97,10 +97,7 @@ figure{
     margin-bottom: 1%;
 }
 .video{
-    text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: 29%;
+    width: 80%;
 }
 footer{
     background-color: #40E0D0;
@@ -209,7 +206,7 @@ th{
     text-decoration-color: #40E0D0;  
 }
 audio{
-    width: 80%;
+    width: 70%;
 }
 audio::-webkit-media-controls-panel{ 
     background-color:#40E0D0 !important; 
