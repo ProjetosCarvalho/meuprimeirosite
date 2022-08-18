@@ -188,12 +188,15 @@ footer{
 table{
     width: 100%;
     border-collapse: collapse;
-}
-table, th, td {
+    margin-bottom: 2%;
+
     border: 3px dashed #008080;
-    padding: 2%;
-    text-align: center;
+}
+th, td {
+    border: 3px dashed #008080;
+    padding: 1%;
     font-family: 'Baloo Da 2', cursive;
+    text-align: center;
   }
   td:first-child { 
     width: 40%;  
@@ -214,3 +217,67 @@ audio{
 audio::-webkit-media-controls-panel{ 
     background-color:#40E0D0 !important; 
 }
+* {
+    box-sizing: border-box;
+  }  
+.form{
+    text-align: center;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #008080;
+    font-size: 1em;
+    font-weight: bolder;
+  }
+  .containerform{
+    border-radius: 9px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+input[type=text], [type=tel], [type=email], select, textarea {
+    width: 70%;
+    padding: 14px;
+    border: 1px solid #008080;
+    border-radius: 6px;
+    resize: vertical;
+    background-color: rgba(35, 224, 224, 0.1);
+  }
+  input[type=submit] {
+    background-color: #008080;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: inline-start;
+    margin-top: 4%;
+  }
+  input[type=submit]:hover {
+    background-color: #03be7a;
+  }
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
