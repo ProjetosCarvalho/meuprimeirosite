@@ -7,7 +7,7 @@
     <title> Teste Css Interno e Inline </title>
     <style>
         body{
-            background-color: #90EE90;
+            background-color: #8fd5df;
         }
         h1{
             text-align: center;
@@ -16,14 +16,75 @@
         p{
             text-align: center;
             color: aliceblue;
+            font-size: larger;
         }
+        .container{
+            position: relative;
+            background-color: #a7a7a7;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+        .topoesquerda{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: #008080;
+        }
+        .topodireita{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: #31ffff;
+        }
+        .abaixoesquerda{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: #4e9bf3;
+        }
+        .abaixodireita{
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: #3fe6ca;
+        }
+        .centro{
+            position: absolute;
+            top: 50%;
+            font-size: 18px;
+            width: 20%;
+            background-color: #d67cb0;
+            margin-left: 40%;
+        }
+
 
     </style>
 </head>
 <body>
-   <h1 style="background-color: brown;color: #90EE90;">Resultados positivos em testes de Covid-19 voltam a subir no estado de SP em abril</h1> 
-   <p  style="background-color: #0f470f; font-style: italic;">Valor aumentou de 5% na última semana de março para 8% na segunda semana de abril. Apesar do crescimento, número de mortes pela doença continua em queda.</p>
-   <p  style="background-color: #0f470f; font-style: italic;">A taxa de resultados positivos nos testes de Covid-19 realizado pelas farmácias voltou a subir em abril no estado de São Paulo.</p>
-   <p  style="background-color: #0f470f; font-style: italic;">Segundo dados da Associação Brasileira Redes Farmácias Drogaria (Abrafarma), na última semana de março, 5% dos testes rápidos feitos nas farmácias deram positivo. Já na primeira semana de abril, o valor subiu para 7%. Na segunda semana de abril, a taxa saltou para 8%.</p> 
+    <header class="fixo">
+         <h1 style="background-color: rgb(134, 122, 122);color: #8fd5df;">Resultados positivos em testes de Covid-19 voltam a subir no estado de SP em abril</h1> 
+         <p  style="background-color: rgb(255,192,203); font-style: italic;">Valor aumentou de 5% na última semana de março para 8% na segunda semana de abril. Apesar do crescimento, número de mortes pela doença continua em queda.</p>
+         <p  style="background-color: rgb(255,192,203); font-style: italic;">A taxa de resultados positivos nos testes de Covid-19 realizado pelas farmácias voltou a subir em abril no estado de São Paulo.</p>
+         <p  style="background-color: rgb(255,192,203); font-style: italic;">Segundo dados da Associação Brasileira Redes Farmácias Drogaria (Abrafarma), na última semana de março, 5% dos testes rápidos feitos nas farmácias deram positivo. Já na primeira semana de abril, o valor subiu para 7%. Na segunda semana de abril, a taxa saltou para 8%.</p> 
+    </header>
+    <div class="main">
+        <h1>Testando...</h1>
+        <div class="container">
+            <div class="topoesquerda">TopoEsq</div>
+            <div class="topodireita">TopoDir</div>
+            <div class="abaixoesquerda">AbaixoE</div>
+            <div class="abaixodireita">AbaixoD</div>
+            <div class="centro">Centro</div>
+        </div>
+    </div>
 </body>
 </html>
