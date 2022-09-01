@@ -13,6 +13,7 @@ html{
     top: 0;
     width: 100%;
     border: 0; padding: 0 14px;
+    z-index: 1000;
 }
 .fundo_header{
     width: 100%;
@@ -34,6 +35,7 @@ html{
 .container{
     width: 80%;
     margin: auto;
+    position: relative;
 }
 section{
     margin-top: 2%;
@@ -90,6 +92,12 @@ figure{
     margin-top: 1,5%;
     margin-bottom: 1,5%;
 }
+.logo{
+    text-align: center;
+}
+.img_logo{
+    width: 8%;
+}
 .img_corpo{
     width: 30%;
     margin-top: 2%;
@@ -98,7 +106,7 @@ figure{
 .img_topo{
     width: 100%;
     margin-bottom: 1%;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .img_gif{
     width: 30%;
