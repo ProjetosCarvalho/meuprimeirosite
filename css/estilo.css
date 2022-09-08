@@ -5,26 +5,31 @@
 html{
     scroll-behavior: smooth;
 }
-.menu{
+header{
     background-color: #40E0D0;
-    padding: 1%;
+    padding: 2%;
     font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fixo{
     position: fixed;
-    top: 0;
-    width: 100%;
-    border: 0; padding: 0 14px;
     z-index: 1000;
+    width: 100%;
+    clear: both;  
+    top: 0;
 }
 .fundo_header{
     width: 100%;
-    height: 200px;
+    height: 250px;
 }
 .itens_menu{
     text-align: center;
 }
 .itens_menu li{
-    font-size: 1.1em;
-    line-height: 1,3;
+    font-size: 1.5em;
+    line-height: 1,8em;
 }
 .fundo{
     background-color: #FFFFF0;
@@ -57,8 +62,8 @@ h2{
     font-size: 1.5em;
     font-weight: bold;
     font-family: Limelight-Regular, 'Courier New', Courier, monospace;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 #status p, #teste p, #prevenções p, #curiosidades p{
     font-size: 1em;
@@ -96,22 +101,21 @@ figure{
     text-align: center;
 }
 .img_logo{
-    width: 8%;
+    width: 20%;
 }
 .img_corpo{
-    width: 30%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .img_topo{
     width: 100%;
-    margin-bottom: 1%;
-    margin-top: 20%;
+    margin-bottom: 2%;
 }
 .img_gif{
-    width: 30%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .video{
     width: 100%;
@@ -154,6 +158,8 @@ footer{
     width: 100px;
     height: 22px;
     background-color: #40E0D0;
+    margin-top: 3%;
+    margin-bottom: 3%;
     margin: auto;
     padding: 2%;
     border-radius: 25px;
@@ -290,15 +296,50 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
     display: table;
     clear: both;
   }
-  @media screen and (max-width: 450px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
   .oms{
     width: 15%;
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 42%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    .logo{
+        text-align: center;
+    }
+    .img_logo{
+        width: 20%;
+    }
+    .banner{
+        margin-top: 30%;
+    }
+  }
+  @media screen and (min-width:601px) {
+
+    header{
+        flex-direction: row;
+    }
+    .itens_menu{
+        position: absolute;
+        right: 6%;
+        width: 80%;
+    }
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 1%;
+    }
+    h1{
+        margin-right: 100%;
+    }
+    .img_logo{
+        width: 20%;
+        margin-right: 50%;
+    }
+    .banner{
+        margin-top: 8%;
+    }
   }
