@@ -13,28 +13,24 @@
     <title>Tratamentos</title>
 </head>
 <body class="fundo_dois">
-    <header>
-        <nav class="menu">
-            <div class="logo">
-                <h1>Tratamentos para os casos de Covid-19</h1>
-            </div>
-            <div class="itens_menu">
+    <header class="fixo">
+        <div class="logo">
+            <img class="img_logo" src="img/logo.png" alt="">
+        </div>
+        <nav class="itens_menu">
             <ul>
                 <li><a href="index.html#home">Home</a></li>
                 <li><a href="index.html#status">Status</a></li>
                 <li><a href="index.html#teste">Testes</a></li>
                 <li><a href="index.html#prevenções">Prevenções</a></li>
-                <li><a href="#curiosidades">Curiosidades</a></li>
+                <li><a href="index.html#curiosidades">Curiosidades</a></li>
                 <li><a href="sobre.html">Máscaras e Vacinas</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
-            </div>
         </nav>
-        <div class="fundo_header">
-
-        </div>
-    </header>
-    <div class="container">
+    </header> /*Tirei o "fundo_header"*/
+    /*Adicionei "descer" no container normal, podendo assim, usar como se fossem duas classes no css*/
+    <div class="container descer">
         <figure>
             <img class="esquerda" src="img/tratamento.jpg" alt="Pandemia">
         </figure>
@@ -88,7 +84,7 @@
             <img class="img_corpo" src="img/vacina.jpg" alt="Pandemia">
         </figure>
         <figure>
-            <p class="botao2"><a href="index.html">voltar</a></p>
+            <a class="botao2" href="index.html" target="blank">Voltar</a>
         </figure>
     </div>
     <footer>
