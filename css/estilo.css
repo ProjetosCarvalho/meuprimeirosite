@@ -20,10 +20,6 @@ header{
     clear: both;  
     top: 0;
 }
-.fundo_header{
-    width: 100%;
-    height: 250px;
-}
 .itens_menu{
     text-align: center;
 }
@@ -97,12 +93,6 @@ figure{
     margin-top: 1,5%;
     margin-bottom: 1,5%;
 }
-.logo{
-    text-align: center;
-}
-.img_logo{
-    width: 20%;
-}
 .img_corpo{
     width: 40%;
     margin-top: 3%;
@@ -147,39 +137,52 @@ footer{
 }
 .itens_menu a:link, .itens_menu a:visited{
     color: 	#ffffff;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 .itens_menu a:hover{
     background-color: #008080;
     padding: 0.1%;
 }
 .botao{
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
     width: 100px;
     height: 22px;
     background-color: #40E0D0;
     margin-top: 3%;
     margin-bottom: 3%;
-    margin: auto;
+    margin: 4px 2px;
+    margin: 1%;
     padding: 2%;
     border-radius: 25px;
     font-size: 1.1em;
     text-align: center;
     font-weight: bold;
+    color: #008080;
 } 
 .botao2{
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
     width: 100px;
-    height: 25px;
+    height: 22px;
     background-color: #40E0D0;
-    margin: auto;
-    padding: 1.5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin: 4px 2px;
+    padding: 2%;
     border-radius: 25px;
     border-style: solid;
     border-color: #008080;
     border-width: medium;
     font-size: 1.1em;
+    text-align: center;
     font-weight: bold;
-    margin-top: 2%;
+    color: #008080;
 }
 .botao a:link, .botao a:visited, .botao2 a:link, .botao2 a:visited{
     color: #008080;
@@ -208,7 +211,6 @@ table{
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 2%;
-
     border: 3px dashed #008080;
 }
 th, td {
@@ -245,7 +247,6 @@ form{
     border-radius: 9px;
     background-color: #f2f2f2;
     padding: 3%;
-    margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 20%;
     margin-right: 20%;
@@ -304,42 +305,84 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
   }
 
   @media screen and (max-width: 600px) {
+
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
-    .logo{
+
+    .logo {
         text-align: center;
     }
-    .img_logo{
+
+    .img_logo {
         width: 20%;
     }
-    .banner{
-        margin-top: 30%;
+
+    .banner {
+        margin-top: 50%;
+    }
+
+    .descer {
+        margin-top: 50%;
+    }
+    /*Adicionei um width de 100% no iframe para determinar o tamanho*/
+    iframe {
+        width: 100%;
+    }
+    /*Com o iframe 100%, ajustei até ficar responsivo*/
+    .video {
+        width: 100%;
+        text-align: center;
     }
   }
   @media screen and (min-width:601px) {
 
-    header{
+    header {
         flex-direction: row;
     }
-    .itens_menu{
+
+    .itens_menu {
         position: absolute;
         right: 6%;
         width: 80%;
     }
-    .itens_menu ul li{
+
+    .itens_menu ul li {
         display: inline;
         margin-left: 1%;
     }
-    h1{
+
+    .itens_menu a:visited, .itens_menu a:link {
+        color: #FFFF;
+        text-decoration: none;
+        text-align: center;
+        padding: 1%;
+    }
+    
+    .itens_menu a:hover {
+        background-color: rgba(9, 7, 6, 0.4);
+    }   
+
+    h1 {
         margin-right: 100%;
     }
-    .img_logo{
-        width: 20%;
-        margin-right: 50%;
+
+    .img_logo {
+        width: 40%;
     }
-    .banner{
+
+    .logo {
+        width: 20%;
+        text-align: left;
+        margin-left: 4%;
+    }
+
+    .banner {
         margin-top: 8%;
+    }
+    /*Margin Top para telas grandes*/
+    .descer {
+        margin-top: 13%;
     }
   }
