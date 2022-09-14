@@ -100,7 +100,6 @@ figure{
 }
 .img_topo{
     width: 100%;
-    margin-bottom: 2%;
 }
 .img_gif{
     width: 40%;
@@ -184,11 +183,8 @@ footer{
     font-weight: bold;
     color: #008080;
 }
-.botao a:link, .botao a:visited, .botao2 a:link, .botao2 a:visited{
-    color: #008080;
-}
-.botao a:hover, .botao2 a:hover{
-    color: #000000;
+a:hover{
+    color: #000000; 
 }
 .centro a:link, .centro a:visited{
     color: 	#ffffff;
@@ -303,7 +299,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
     margin-bottom: 1%;
     margin-left: 42%;
   }
-
+ 
   @media screen and (max-width: 600px) {
 
     .col-25, .col-75, input[type=submit] {
@@ -319,21 +315,35 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
         width: 20%;
     }
 
+    .img_corpo, .img_gif{
+        width: 90%;
+    }
+
     .banner {
         margin-top: 50%;
     }
 
     .descer {
-        margin-top: 50%;
+        margin-top: 65%;
     }
-    /*Adicionei um width de 100% no iframe para determinar o tamanho*/
+
     iframe {
         width: 100%;
     }
-    /*Com o iframe 100%, ajustei até ficar responsivo*/
+
     .video {
         width: 100%;
         text-align: center;
+    }
+    
+    h2{
+        font-size: 1.2em;  
+    }
+    #status p, #teste p, #prevenções p, #curiosidades p, .paragrafo p, .topicos{
+        font-size: 1em; 
+    }
+    table{
+        margin-bottom: 13%;
     }
   }
   @media screen and (min-width:601px) {
@@ -381,8 +391,10 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
     .banner {
         margin-top: 8%;
     }
-    /*Margin Top para telas grandes*/
     .descer {
         margin-top: 13%;
+    }
+    table{
+        margin-bottom: 6%;
     }
   }
